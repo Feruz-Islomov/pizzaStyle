@@ -1,0 +1,130 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url("../public/photo/p10.jpg");
+  background-repeat: repeat;
+  background-size: auto;
+}
+/* navbar */
+/* navbar */
+/* navbar */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 100px;
+}
+
+.navleft {
+  display: flex;
+  flex-wrap: wrap;
+}
+.navleft > a {
+  /* background-color: rgb(231, 17, 17); */
+  padding: 5px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  color: rgb(222, 228, 228);
+}
+
+/* menubar */
+/* menubar */
+/* menubar */
+.menubar {
+  background-color: rgba(175, 108, 108, 0.9);
+  border-radius: 25px;
+  margin: 2% 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 0 20px rgb(194, 143, 143);
+}
+.menubar > div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.menubar div > a {
+  /* background-color: chocolate; */
+  color: aliceblue;
+  text-decoration: none;
+  text-shadow: 1px 1px 20px greenyellow;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px;
+}
+.micon {
+  width: 70px;
+  height: 60px;
+}
+
+/* menu body */
+/* menu body */
+/* menu body */
+.menubody {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.menucard {
+  border-radius: 24px;
+  padding: 5px 5px 0 5px;
+  margin: 5px 2px;
+  width: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.name {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.meimg {
+  width: 150px;
+  height: 150px;
+  top: 5px;
+  right: 5px;
+  float: right;
+}
+.pizza {
+  background-color: rgb(218, 62, 62);
+  box-shadow: 0 0 25px rgb(218, 62, 62);
+}
+.burger {
+  background-color: greenyellow;
+  box-shadow: 0 0 25px greenyellow;
+}
+
+.sauce {
+  background-color: tomato;
+  box-shadow: 0 0 25px tomato;
+}
+.dessert {
+  background-color: #ffd9ba;
+  box-shadow: 0 0 25px #ffd9ba;
+}
+.drink {
+  background-color: orange;
+  box-shadow: 0 0 25px orange;
+}
+
+/* contact */
+/* contact */
+/* contact */
+.contact {
+  background-color: black;
+  opacity: 0.7;
+  height: 300px;
+  color: white;
+  text-align: center;
+}
